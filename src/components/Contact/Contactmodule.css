@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  font-size: medium;
+}
+
+label {
+  margin-right: 90%;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  color: #fff;
+  border: none;
+  background-color: #0056b3;
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+button:hover {
+  background-color: green;
+}
